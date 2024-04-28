@@ -11,18 +11,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-screen">
-          <aside></aside>
-          <main>
-            {children}
-          </main>
-          </div>
+        <div className="grid min-h-screen grid-cols-app">
+          <aside>sidebar</aside>
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   )

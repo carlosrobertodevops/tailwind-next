@@ -1,20 +1,20 @@
-/** @type {import('tailwindcss').Config}*/
+/** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: [
-    "./src//**/*.tsx",
-  ],
-  exports: {darkMode: 'selector'},
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        app: 'minmax(18rem, 20rem) 1fr',
+      },
+
       maxWidth: {
-        app: '700px%'
+        app: '700px',
       },
 
       colors: {
-        diego: '#3333'
-      }
-
+        diego: '#333',
+      },
     },
   },
   plugins: [],
