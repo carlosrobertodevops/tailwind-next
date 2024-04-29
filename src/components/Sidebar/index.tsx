@@ -1,4 +1,5 @@
 import { Search } from 'lucide-react'
+import { MainNavigation } from '../MainNavigation'
 import { Logo } from './Logo'
 export function Siderbar() {
   return (
@@ -12,6 +13,8 @@ export function Siderbar() {
           placeholder="Seach"
         ></input>
       </div>
+
+      <MainNavigation />
     </aside>
   )
 }
