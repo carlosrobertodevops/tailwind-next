@@ -43,7 +43,7 @@ export function Siderbar() {
         <div className="flex flex-col gap-4 rounded-lg bg-violet-50 px-4 py-5">
           <div className="space-y-1">
             <span className="text-sm/5 font-semibold text-violet-700">
-              Uded space
+              Used space
             </span>
             <p className="text-sm/5 font-semibold text-violet-500">
               Your team has used 80% of your avaliable space. Need more ?
@@ -56,13 +56,13 @@ export function Siderbar() {
           <div className="space-x-3">
             <button
               type="button"
-              claassName="text-sm font-medium text-violet-500"
+              claassName="text-sm font-medium text-violet-700 hover:text-violet-700"
             >
               Dismiss
             </button>
             <button
               type="button"
-              claassName="text-sm font-medium text-violet-700"
+              claassName="text-sm font-medium text-violet-700 hover:text-violet-900"
             >
               Upgrade plan
             </button>
