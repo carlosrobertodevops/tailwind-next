@@ -11,6 +11,7 @@ import {
 } from 'lucide-react'
 import { Logo } from './Logo'
 import { NavItem } from './NavItem'
+import { Profile } from './Profile'
 import { UsedSpaceWidgetProps } from './UsedSpaceWidget'
 
 export function Siderbar() {
@@ -42,6 +43,9 @@ export function Siderbar() {
         </nav>
 
         <UsedSpaceWidgetProps />
+        <div className="h-px bg-zinc-200" />
+
+        <Profile />
       </div>
     </aside>
   )
